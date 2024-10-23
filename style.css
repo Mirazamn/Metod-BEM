@@ -1,0 +1,223 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Header */
+header {
+    padding: 50px 0 50px 0;
+    box-shadow: 0px 4px 8.7px 0px #00000040;
+    border: 1px solid #BCAAAA;
+    position: fixed;
+    width: 100%;
+    height: 156px;
+    background-color: #fff;
+}
+
+
+header .flex {
+    justify-content: space-between;
+}
+
+
+header nav .flex {
+    gap: 45px;
+}
+
+
+header nav ul li a {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #BCAAAA;
+}
+
+
+header .container .logo {
+    width: 205px;
+}
+
+
+
+header nav ul li .shop {
+    color: #EF400F;
+}
+
+
+header nav ul li .shop:active {
+    padding: 0 0 44px 0;
+    border-bottom: 3px solid #EF400F;
+}
+
+
+header .profile {
+    gap: 50px;
+}
+
+
+header .profile button {
+    padding: 16px 17px 18px 22px;
+    border: 3px solid #EF400F;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+
+button a {
+    font-size: 24px;
+    font-weight: 600;
+    color: #EF400F;
+}
+
+
+/* Main */
+main {
+    padding: 200px 0 0 0;
+    background-color: #F5F5F5;
+}
+
+
+main .container h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #0D0C5C;
+}
+
+
+main .container .search-sect input {
+    background-color: #000000;
+    padding: 17px 20px;
+    width: 386px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+}
+
+
+.search-sect input::placeholder {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+.search-sect button {
+    background-color: #0D0D5B;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    width: 116px;
+    height: 63px;
+}
+
+
+
+.cart {
+    font-size: 32px;
+    font-weight: 600;
+    color: #EF400F;
+    gap: 17px;
+}
+
+
+/* Card Styles */
+.cards {
+    display: flex;
+    padding: 120px 0 40px 0;
+    flex-wrap: wrap;
+    gap: 26px;
+}
+
+
+
+.cards .card {
+    width: 290px;
+    height: 290px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 44px 52px 24px 54px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 13.3px 0px #00000040;
+    background-color: #fff;
+}
+
+
+.card .card--title {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+}
+
+
+.card .card--coins {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #000000AB;
+    padding: 15px 0 35px 0;
+}
+
+
+.card .card--value {
+    font-size: 13px;
+    font-weight: 300;
+    color: #000000BF;
+}
+
+
+/* Footer */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 0 16px 0;
+}
+
+
+footer h6 {
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+}
+
+
+footer img {
+    width: 118px;
+}
+
+
+footer a {
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+}
+
+
+footer a:hover {
+    text-decoration: underline;
+}
